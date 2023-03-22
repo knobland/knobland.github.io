@@ -1,0 +1,40 @@
+body {
+	background-image: url('assets/lightning.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.fixed-img {
+	position: fixed;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.logo-img {
+    filter: drop-shadow(0 0 2px #fff)
+    drop-shadow(5px 0 4px #000)
+    drop-shadow(-5px 0 4px #6a3f70)
+    drop-shadow(5px 0 2px #000)
+    drop-shadow(-5px 0 2px #6a3f70)
+    drop-shadow(0 0 6px#000)
+    drop-shadow(0px 0 10px #000)
+    drop-shadow(0px 0 10px #6a3f70);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+#kl {
+    width: 15%;
+	top: 25%;
+}
+
+#soon {
+    width: 50%;
+	top: 75%;
+}
